@@ -1,0 +1,55 @@
+.select main {
+    display: inline-block;
+    border-radius: 5px;
+
+
+}
+
+.items {
+    position: absolute;
+    border: 1px solid #939393;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    top: 100%;
+
+
+}
+
+.item.selected {
+    background-color: #1122df;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+.select {
+    position: relative;
+    border: 2px solid #000000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+.main {
+    font-weight: inherit;
+
+
+}
+
+.container {
+    font-size: 5em;
+    min-width: 65px;
+
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
